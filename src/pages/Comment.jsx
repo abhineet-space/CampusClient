@@ -1,8 +1,8 @@
-import React from 'react';
-import './comment.css'
+import React, { useState } from 'react';
 import M1 from '../Asset/Profiling_Monochromatic.png'
 import AO from '../Asset/Authentication_Outline.png'
 import ReactDOM from 'react-dom'
+import './css/comment.css'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faFacebook } from '@fortawesome/free-solid-svg-icons'
 
@@ -11,6 +11,9 @@ import ReactDOM from 'react-dom'
 
 
 const Comment = () => {
+const [Username, SetName] = useState("");
+const[password, Setname] = useState("");
+
     return (
         <div>
         <div className="container">
@@ -20,7 +23,7 @@ const Comment = () => {
                 <h2 className="title">Sign In</h2>
                 <div className="input-field">
                   <i className="bx bxs-user" />
-                  <input type="text" placeholder="Username" />
+                  <input type="Username" placeholder="Username" />
                 </div>
                 <div className="input-field">
                   <i className="bx bxs-lock-alt" />

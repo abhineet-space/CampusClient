@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 *{
     padding: 0;
@@ -8,7 +8,7 @@
 
 body,input{
     font-family: 'Roboto', sans-serif;
-}
+} */
 
 .container{
     position: relative;
@@ -18,7 +18,7 @@ body,input{
     overflow: hidden;
 }
 
-.container:before{
+/* .container:before{
     content: '';
     position: absolute;
     width: 2000px;
@@ -30,7 +30,7 @@ body,input{
     transform: translateY(-50%);
     z-index: 6;
     transition: 1.8s ease-in-out;
-}
+} */
 
 .forms-container{
     position: absolute;
